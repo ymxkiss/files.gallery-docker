@@ -1,7 +1,6 @@
 version: '3.8'
 services:
   nginx:
-    # 直接拿 nginx official image 來使用 
     image: library/nginx:1.19-alpine
     container_name: "charlie_nginx"
     ports:
@@ -13,7 +12,6 @@ services:
     links:
       - php
   php:
-    # PHP 常常要設定執行環境或其他 extensions ，另外 build image 使用
     image: "charlie_php"
     build: ./php
     user: "0:0"
