@@ -1,11 +1,11 @@
-# file.gallery-docker
-A docker version for file.gallery php application
+# files.gallery-docker
+A docker version for files.gallery php application
 
 # Setup
 ```shell
 # Clone the git repository
-git clone https://github.com/RealXLFD/file.gallery-docker.git
+git clone https://github.com/RealXLFD/files.gallery-docker.git
 # Deploy using docker-compose
-cd file.gallery-docker/
+cd files.gallery-docker/
 docker-compose up -d
 ```
