@@ -1,6 +1,7 @@
 # files.gallery-docker
 A docker version for files.gallery php application
-ip:8384
+
+http://ip:8384
 # Setup
 ```shell
 # Clone the git repository
